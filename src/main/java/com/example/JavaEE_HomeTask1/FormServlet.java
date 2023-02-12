@@ -5,8 +5,8 @@ import javax.servlet.ServletException;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
-@WebServlet(name = "helloServlet", value = "/hello-servlet")
-public class HelloServlet extends HttpServlet {
+@WebServlet(name = "formServlet", value = "/form-servlet")
+public class FormServlet extends HttpServlet {
     private String name;
     private int age;
 
